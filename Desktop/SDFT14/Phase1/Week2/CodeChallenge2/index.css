@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.guest-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.rsvp {
+  font-size: 0.9em;
+  color: #555;
+}
+
+button.remove-btn {
+  background-color: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+button.rsvp-btn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+button.edit-btn {
+  background-color: #2196f3;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
